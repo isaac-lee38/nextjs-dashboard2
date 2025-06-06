@@ -4,6 +4,7 @@ import {
   UserGroupIcon,
   HomeIcon,
   DocumentDuplicateIcon,
+  BoltIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 // Typical HTML uses a, by using Link, This allows you to do client-side navigation with Javascript
@@ -20,6 +21,7 @@ const links = [
     icon: DocumentDuplicateIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Helper', href: '/dashboard/helper', icon: BoltIcon },
 ];
 
 export default function NavLinks() {
